@@ -13,7 +13,7 @@
     </div>
     <div class="col-md-10">
       <!--Body content-->
-
+      <example-directive></example-directive>
       <ul class="phones">
         <li ng-repeat="phone in phones | filter:query | orderBy:orderProp"
             class="thumbnail phone-listing">
@@ -22,6 +22,7 @@
           <p>{{phone.snippet}}</p>
         </li>
       </ul>
+      <example-directive></example-directive>
 
     </div>
   </div>
